@@ -3,7 +3,7 @@
 **CS5800 Algorithms — Final Project (Spring 2023)**  
 Aditya Singh · Rishab Jaiprakash Khuba · Prathiksha Mohan Raje Urs · Pranamya Dinesh
 
-📽️ [Demo video](https://youtu.be/EDfeYrSToRk)
+[Demo video](https://youtu.be/EDfeYrSToRk)
 
 ---
 
@@ -36,7 +36,7 @@ We compare two algorithms:
 
 ```
 safest-path-finder/
-├── Copy_of_baseline.ipynb   # Main Colab notebook (A* + Dijkstra's + visualisation)
+├── algo_project.ipynb   # Main Colab notebook (A* + Dijkstra's + visualisation)
 ├── requirements.txt
 └── README.md
 ```
@@ -47,22 +47,14 @@ safest-path-finder/
 
 This project was built in Google Colab. To run it:
 
-**Option 1 — Google Colab (recommended)**
-1. Upload `Copy_of_baseline.ipynb` to [Google Colab](https://colab.research.google.com/)
+1. Upload `algo_project.ipynb` to [Google Colab](https://colab.research.google.com/)
 2. Upload your crime shapefile to Google Drive
 3. Update the shapefile path in the notebook:
    ```python
    sf = shapefile.Reader("/content/drive/MyDrive/crime_dt.shp")
    ```
 4. Run all cells
-
-**Option 2 — Local**
-```bash
-pip install -r requirements.txt
-jupyter notebook Copy_of_baseline.ipynb
-```
-Then update the shapefile path to your local path.
-
+   
 ---
 
 ## Data
