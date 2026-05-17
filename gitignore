@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Shapefiles (too large / not redistributable)
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+*.qpj
+
+# OS
+.DS_Store
+Thumbs.db
